@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Devel
 %define	pnam	CoreStack
-Summary:	Devel-CoreStack perl module
-Summary(pl):	Modu³ perla Devel-CoreStack
+Summary:	Devel::CoreStack perl module
+Summary(pl):	Modu³ perla Devel::CoreStack
 Name:		perl-Devel-CoreStack
 Version:	1.3
 Release:	3
