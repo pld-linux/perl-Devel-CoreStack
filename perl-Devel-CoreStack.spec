@@ -1,29 +1,30 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Devel
 %define	pnam	CoreStack
-Summary:	Devel::CoreStack perl module
-Summary(pl):	Modu³ perla Devel::CoreStack
+Summary:	Devel::CoreStack - try to generate a stack dump from a core file
+Summary(pl):	Devel::CoreStack - próba wygenerowania zrzutu stosu z pliku core
 Name:		perl-Devel-CoreStack
 Version:	1.3
 Release:	4
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5: 483183935fcd4743a4903a183722f559
+# Source0-md5:	483183935fcd4743a4903a183722f559
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module attempts to generate a stack dump from a core file by
-locating the best available debugger (if any) and running it with the
-appropriate arguments and command script.
+The Devel::CoreStack Perl module attempts to generate a stack dump
+from a core file by locating the best available debugger (if any) and
+running it with the appropriate arguments and command script.
 
 %description -l pl
-Ten modu³ próbuje wygenerowaæ zrzut stosu z pliku core poprzez
-zlokalizowanie najlepszego dostêpnego debuggera (je¶li w ogóle jest) i
-uruchomienie go z odpowiednimi parametrami.
+Modu³ Perla Devel::CoreStack próbuje wygenerowaæ zrzut stosu z pliku
+core poprzez zlokalizowanie najlepszego dostêpnego debuggera (je¶li w
+ogóle jest) i uruchomienie go z odpowiednimi parametrami.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
