@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Devel
-%define	pnam	CoreStack
+%define		pdir	Devel
+%define		pnam	CoreStack
 Summary:	Devel::CoreStack - try to generate a stack dump from a core file
 Summary(pl):	Devel::CoreStack - próba wygenerowania zrzutu stosu z pliku core
 Name:		perl-Devel-CoreStack
