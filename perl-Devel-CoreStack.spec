@@ -5,7 +5,7 @@ Summary:	Devel::CoreStack - try to generate a stack dump from a core file
 Summary(pl):	Devel::CoreStack - próba wygenerowania zrzutu stosu z pliku core
 Name:		perl-Devel-CoreStack
 Version:	1.3
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
