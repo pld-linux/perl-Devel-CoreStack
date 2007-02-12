@@ -2,7 +2,7 @@
 %define		pdir	Devel
 %define		pnam	CoreStack
 Summary:	Devel::CoreStack - try to generate a stack dump from a core file
-Summary(pl):	Devel::CoreStack - próba wygenerowania zrzutu stosu z pliku core
+Summary(pl.UTF-8):   Devel::CoreStack - prÃ³ba wygenerowania zrzutu stosu z pliku core
 Name:		perl-Devel-CoreStack
 Version:	1.3
 Release:	6
@@ -21,10 +21,10 @@ The Devel::CoreStack Perl module attempts to generate a stack dump
 from a core file by locating the best available debugger (if any) and
 running it with the appropriate arguments and command script.
 
-%description -l pl
-Modu³ Perla Devel::CoreStack próbuje wygenerowaæ zrzut stosu z pliku
-core poprzez zlokalizowanie najlepszego dostêpnego debuggera (je¶li w
-ogóle jest) i uruchomienie go z odpowiednimi parametrami.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Devel::CoreStack prÃ³buje wygenerowaÄ‡ zrzut stosu z pliku
+core poprzez zlokalizowanie najlepszego dostÄ™pnego debuggera (jeÅ›li w
+ogÃ³le jest) i uruchomienie go z odpowiednimi parametrami.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
