@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Devel
 %define		pnam	CoreStack
+%include	/usr/lib/rpm/macros.perl
 Summary:	Devel::CoreStack - try to generate a stack dump from a core file
 Summary(pl.UTF-8):	Devel::CoreStack - próba wygenerowania zrzutu stosu z pliku core
 Name:		perl-Devel-CoreStack
@@ -11,8 +11,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	483183935fcd4743a4903a183722f559
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Devel-CoreStack/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
